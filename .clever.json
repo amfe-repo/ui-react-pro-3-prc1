@@ -1,0 +1,11 @@
+{
+  "apps": [
+    {
+      "app_id": "app_b45117e1-de3c-4076-9855-1a98601b7f37",
+      "org_id": "user_7876adc8-0799-4382-8551-fd0425912b29",
+      "deploy_url": "https://push-n2-par-clevercloud-customers.services.clever-cloud.com/app_b45117e1-de3c-4076-9855-1a98601b7f37.git",
+      "name": "react-app",
+      "alias": "app-react"
+    }
+  ]
+}
