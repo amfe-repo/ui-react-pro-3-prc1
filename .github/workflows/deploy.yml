@@ -24,4 +24,4 @@ jobs:
 
       - name: Build Dockerfile
         run: |
-          ./clever-tools-latest_linux/clever deploy -a react-app
+          ./clever-tools-latest_linux/clever deploy -a app-react
