@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './Components/App/App';
 import reportWebVitals from './Test/reportWebVitals';
-import * as bootstrap from 'bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
+//import '../node_modules/bootstrap/scss/bootstrap.scss';
+//import './Components/Navbar/NavbarStyle.scss';
 
 ReactDOM.render(
   <React.StrictMode>
