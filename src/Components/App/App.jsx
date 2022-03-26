@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import { render } from 'react-dom';
 import { BrowserRouter, Routes, Route, } from 'react-router-dom';
@@ -38,6 +39,19 @@ function App() {
 
   );
 
+=======
+import Navbar from '../Navbar/Navbar';
+import Main from '../Main/Main';
+import './App.css';
+
+function App() {
+  return (
+    <div className="container-fluid p-0">
+        <Navbar></Navbar>
+        <Main></Main>
+    </div>
+  );
+>>>>>>> c26801af9169f0383a41b073af792b89b690f1ff
 }
 
 export default App;

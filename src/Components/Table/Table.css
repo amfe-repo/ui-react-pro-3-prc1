@@ -1,0 +1,14 @@
+.table-row
+{
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 5em;
+    border: none;
+}
+
+.row-pagination
+{
+    width: 15.4em;
+    padding: 0px;
+    margin: 0 auto;
+}
