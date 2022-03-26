@@ -16,7 +16,7 @@ jobs:
       - name: Install dependencies
         run: |
           git fetch --prune --unshallow
-          wget --secure-protocol=TLSv1 https://clever-tools.cellar.services.clever-cloud.com/releases/latest/clever-tools-latest_linux.tar.gz
+          curl -O https://clever-tools.clever-cloud.com/releases/latest/clever-tools-latest_linux.tar.gz
           tar xvzf clever-tools-latest_linux.tar.gz
 
       - name: Login Clever Cloud
