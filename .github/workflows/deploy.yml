@@ -4,19 +4,19 @@ on:
   workflow_dispatch:
 
 jobs:
-  
+
   build:
-    
+
     runs-on: ubuntu-latest
 
-   
+
     steps:
       - uses: actions/checkout@v2
 
       - name: Install dependencies
         run: |
           git fetch --prune --unshallow
-          wget https://clever-tools.cellar.services.clever-cloud.com/releases/latest/clever-tools-latest_linux.tar.gz
+          curl -O https://clever-tools.clever-cloud.com/releases/latest/clever-tools-latest_linux.tar.gz
           tar xvzf clever-tools-latest_linux.tar.gz
 
       - name: Login Clever Cloud
