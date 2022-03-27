@@ -1,29 +1,25 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './Components/App/App';
-import LoginPage from './Components/Login/LoginPage';
-import reportWebVitals from './Test/reportWebVitals';
-//import '../node_modules/bootstrap/scss/bootstrap.scss';
-//import './Components/Navbar/NavbarStyle.scss';
+//En esta clase es en donde añadiremos nuestras rutas, las cuales utilizaremos a nivel global.
+
+import ReactDOM from "react-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Login from "./Components/Login/LoginPage.jsx";
+import Navbar from "./Components/Navbar/Navbar.jsx";
+import Main from "./Components/Main/Main.jsx";
+import Home from "./Components/App/App.jsx";
 
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-/*ReactDOM.render(
-<React.StrictMode>
-  <LoginPage/>
-</React.StrictMode>,
-document.getElementById('root')
-);
-*/
-//ReactDOM.render(<LoginPage/>,document.getElementById('root'))
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="elementos" element={<Main />} />
+        <Route path="barra" element={<Navbar />} />
+        <Route path="login" element={<Login />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+ReactDOM.render(<App />, document.getElementById("root"))
