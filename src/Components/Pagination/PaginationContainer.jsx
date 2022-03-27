@@ -1,6 +1,5 @@
 const PaginationContainer = (props) => {
     return (
-
             <nav aria-label="Page navigation example">
               <ul class="pagination">
                 <li class="page-item"><a class="page-link text-secondary" href="#">Previous</a></li>
@@ -9,8 +8,7 @@ const PaginationContainer = (props) => {
                 <li class="page-item"><a class="page-link text-secondary" href="#">3</a></li>
                 <li class="page-item"><a class="page-link text-secondary" href="#">Next</a></li>
               </ul>
-            </nav>
-        
+            </nav>    
     )
 }
 

@@ -8,7 +8,7 @@ const Navbar = (props) =>
         <header className="navbar-head">
             <div className="row p-md-3">
                 <span className="left col-sm-12 col-lg-8 d-flex row">
-                    <span className="p-md-2 btn btn-secondary text-info me-3 fs-md-6 col-lg-2 ms-3 ms-sm-0" >Ofertas de empleo</span>
+                    <span className="p-md-2 btn btn-secondary text-info me-3 fs-md-6 col-lg-2 ms-3 ms-lg-2" >Ofertas de empleo</span>
                     <span className="p-md-2 btn btn-info fw-bold text-light me-3 fs-md-6 col-lg-2 ms-3 ms-sm-0" >Publicar empleo</span>
                     <div className="search row col-lg-6 p-0">
                         <input type="text" className="ms-0 ms-lg-2 col-10 col-lg-8" />
