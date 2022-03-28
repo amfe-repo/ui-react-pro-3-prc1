@@ -1,7 +1,5 @@
-import Navbar from '../Navbar/Navbar.jsx';
+import Navbar from '../Navbar/Navbar';
 import '../Login/LoginPage.css';
-
-
 function IniciarSesion() {
   return (
     <div className="LoginPage">

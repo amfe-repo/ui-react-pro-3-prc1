@@ -1,4 +1,5 @@
-import Style from './MainStyle.scss';
+import './MainStyle.scss';
+
 import Table from '../Table/Table';
 
 const Main = (props) => {

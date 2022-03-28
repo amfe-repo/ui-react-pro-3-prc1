@@ -9,7 +9,9 @@ import RegisterBussiness from "./Components/Register/RegisterBussiness.jsx";
 import Navbar from "./Components/Navbar/Navbar.jsx";
 import Main from "./Components/Main/Main.jsx";
 import Home from "./Components/App/App.jsx";
-
+import JobPostedView from "./Components/JobPostedView/JobPostedView";
+import CategorieView from "./Components/CategorieView/CategorieView";
+import PostJob from "./Components/PostJob/PostJob";
 
 export default function App() {
   return (
@@ -21,6 +23,9 @@ export default function App() {
         <Route path="login" element={<Login />} />
         <Route path="register" element={<Register/>}/>
         <Route path="bussiness" element={<RegisterBussiness/>}/>
+        <Route path="job" element={<JobPostedView />} />
+        <Route path="jobs-categories" element={<CategorieView />} />
+        <Route path="post-job" element={<PostJob />} />
       </Routes>
     </BrowserRouter>
   );
