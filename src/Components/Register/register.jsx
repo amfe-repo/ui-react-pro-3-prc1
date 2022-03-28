@@ -30,7 +30,7 @@ function Register() {
                     <input type="date" className="form-control" id="textDate" />
 
 
-                    <label htmlFor="EmailField" className="form-label">Correo Electrónico</label>
+                    <label htmlFor="EmailField" className="form-label">Correo electrónico</label>
                     <input type="email" className="form-control" id="textEmail" aria-describedby="emailHelp" />
 
                     <label htmlFor="CityField" className="form-label">Ciudad natal</label>
