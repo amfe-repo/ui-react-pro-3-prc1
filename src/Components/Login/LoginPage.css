@@ -1,12 +1,5 @@
-
-
 .LoginPage{
   text-align: center;
-}
-
-h1{
-font-family: 'Helvetica Neue',serif;
-
 }
 
 form{
@@ -16,10 +9,4 @@ padding: 40px;
 /*border: 5px solid rgb(91, 215, 231); */
 border-radius: 10px;
 box-shadow: 7px 7px 28px #6867AC;
-font-family:  'Helvetica Neue', serif;
-
 }
-
-
-
-

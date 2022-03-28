@@ -1,4 +1,4 @@
-*
+*, ::after, ::before
 {
     margin: 0px;
     padding: 0px;
@@ -9,32 +9,4 @@
     background-color: #6867AC;
     margin: 0px;
     padding: 0px;
-}
-
-.search
-{
-    width: 400px;
-}
-
-.btn-p
-{
-    margin-right: 1em;
-}
-
-.image img
-{
-    width: 10em;
-    height: 2.5em;
-    position: relative;
-    bottom: 15%;
-}
-
-@media only screen and (max-width: 1389px) {
-    .image img
-    {
-        width: 10em;
-        height: 2.5em;
-        position: relative;
-        top: 15%;
-    }
 }

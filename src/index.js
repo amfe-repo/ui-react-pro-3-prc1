@@ -3,11 +3,13 @@
 import ReactDOM from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Login from "./Components/Login/LoginPage.jsx";
-import Navbar from "./Components/Navbar/Navbar.jsx";
-import Main from "./Components/Main/Main.jsx";
-import Home from "./Components/App/App.jsx";
-
+import Login from "./Components/Login/LoginPage";
+import Navbar from "./Components/Navbar/Navbar";
+import Main from "./Components/Main/Main";
+import Home from "./Components/App/App";
+import JobPostedView from "./Components/JobPostedView/JobPostedView";
+import CategorieView from "./Components/CategorieView/CategorieView";
+import PostJob from "./Components/PostJob/PostJob";
 
 export default function App() {
   return (
@@ -17,6 +19,9 @@ export default function App() {
         <Route path="elementos" element={<Main />} />
         <Route path="barra" element={<Navbar />} />
         <Route path="login" element={<Login />} />
+        <Route path="job" element={<JobPostedView />} />
+        <Route path="jobs-categories" element={<CategorieView />} />
+        <Route path="post-job" element={<PostJob />} />
       </Routes>
     </BrowserRouter>
   );
