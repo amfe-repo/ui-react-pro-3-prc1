@@ -8,7 +8,6 @@ const Navbar = (props) => {
         <header className="navbar-head">
             <div className="row p-md-3">
                 <span className="left col-sm-12 col-lg-8 d-flex row">
-                    { /*  <span className="p-md-2 btn btn-secondary text-info me-3 fs-md-6 col-lg-2 ms-3 ms-lg-2" >Ofertas de empleo</span> */}
                     <Link className="p-md-2 btn btn-secondary text-info me-3 fs-md-6 col-lg-2 ms-3 ms-lg-2" to="/">Ofertas de empleo</Link>
                     <span className="p-md-2 btn btn-info fw-bold text-light me-3 fs-md-6 col-lg-2 ms-3 ms-sm-0" >Publicar empleo</span>
                     <div className="search row col-lg-6 p-0">
@@ -17,11 +16,9 @@ const Navbar = (props) => {
                     </div>
                 </span>
                 <span className="right mb-2 mb-sm-0 mt-3 mt-md-3 mt-lg-0 col-lg-4 d-flex flex-row-reverse">
-
-                    { /* <button className="p-2 btn btn-info fw-bold text-light me-3">Iniciar sesion</button> */}
                     <Link className="p-2 btn btn-info fw-bold text-light me-3" to="/login">Iniciar sesión</Link>
+                   <Link className="p-2 btn btn-secondary fw-bold text-light me-3" to="/register">Registrarse</Link>
 
-                    <button className="p-2 btn btn-secondary fw-bold text-light me-3">Registrarse</button>
                 </span>
             </div>
         </header>
